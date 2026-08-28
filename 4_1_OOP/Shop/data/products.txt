@@ -1,0 +1,3 @@
+HotWheels,car,50,7
+Lego,Constructor,39,3
+Barbie,Doll,30,7
