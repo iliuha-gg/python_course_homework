@@ -1,0 +1,61 @@
+```html
+{% extends "base.html" %}
+
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+
+{% block content %}
+
+    {% if page == "home" %}
+
+        <h2>Привіт!</h2>
+
+        <p>
+            Мене звати Ілля. Я вивчаю програмування
+            та розвиваюся у напрямку Python Backend.
+        </p>
+
+        <p>
+            Зараз я працюю з Python, Flask, FastAPI,
+            SQL та Git.
+        </p>
+
+
+    {% elif page == "about" %}
+
+        <h2>Про мене</h2>
+
+        <p>
+            Я початківець Python-розробник.
+        </p>
+
+        <p>
+            Вивчаю backend-розробку та створення
+            вебзастосунків за допомогою Python.
+        </p>
+
+        <p>
+            Моя мета — розвиватися як Backend Developer
+            та працювати над реальними проєктами.
+        </p>
+
+
+    {% elif page == "skills" %}
+
+        <h2>Мої навички</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>FastAPI</li>
+            <li>SQL</li>
+            <li>Git</li>
+        </ul>
+
+    {% endif %}
+
+{% endblock %}
+```
