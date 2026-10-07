@@ -1,6 +1,7 @@
-.venv/
+db.sqlite3
 .idea/
+.venv/
+venv/
 __pycache__/
 *.pyc
 .DS_Store
-0_practice
